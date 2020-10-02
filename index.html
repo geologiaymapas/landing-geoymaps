@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind Starter Template - Landing Page Template: Tailwind Toolbox</title>
+  <title>Geologia y Mapas - Eventos</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <!-- Font Awesome if you need it
+  <!-- Font Awesome if you need it -->
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+  
+  <link rel="stylesheet" href="styles/output.css">
   <!--Replace with your tailwind.css once created-->
 
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
@@ -36,11 +37,13 @@
 			
 		<div class="pl-4 flex items-center">
 			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-				<!--Icon from: http://www.potlabicons.com/ -->
+				<!--Icon from: http://www.potlabicons.com/ 
 				<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
 				<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
 				<path class="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/>
-				</svg> LANDING
+				</svg> -->
+				<i class="far fa-compass"></i>
+				Geologia y Mapas
 			</a>
 		</div>
 
@@ -78,13 +81,11 @@
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		<!--Left Col-->
 		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-			<p class="uppercase tracking-loose w-full">What business are you?</p>
+			<p class="uppercase tracking-loose w-full">Evento del día</p>
 			<h1 class="my-4 text-5xl font-bold leading-tight">Main Hero Message to sell yourself!</h1>
 			<p class="leading-normal text-2xl mb-8">Sub-hero message, not too long and not too short. Make it just right!</p>
 		
-			
-
-			<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
+			<a href="#registro" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</a>
 			
 		</div>
 		<!--Right Col-->
@@ -111,7 +112,6 @@
 	</g>
 	</svg>
 </div>
-
 
 
 <section class="bg-white border-b py-8">
@@ -234,9 +234,7 @@
 
 		</div>
 	</div>
-</section>
-		
-		
+</section>		
 		
 
 <section class="bg-white border-b py-8">
@@ -302,24 +300,16 @@
 				</div>
 			</div>
 		</div>
-		
-		
 	</div>
-
 </section>
 
-<section class="bg-gray-100 py-8">
-
-
+<section class="bg-gray-100 py-8" id="registro">
 	
 	<div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-
 		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Pricing</h1>
 		<div class="w-full mb-4">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
-	
-	
 		
 		<div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
 			
@@ -408,37 +398,29 @@
 </svg>
 
 <section class="container mx-auto text-center py-6 mb-12">
-
 	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
 	<div class="w-full mb-4">	
 		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
 	</div>
-
-	<h3 class="my-4 text-3xl leading-tight">Main Hero Message to sell yourself!</h3>	
-
-	<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
-		
+	<h3 class="my-4 text-3xl leading-tight">Main Hero Message to sell yourself!</h3>
+	<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>		
 </section>
 
 
 <!--Footer-->
 <footer class="bg-white">
-	<div class="container mx-auto  px-8">
-
-        <div class="w-full flex flex-col md:flex-row py-6">
-				
-			<div class="flex-1 mb-6">
-			
+	<div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">				
+			<div class="flex-1 mb-6">			
 				<a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-					<!--Icon from: http://www.potlabicons.com/ -->
+					<!--Icon from: http://www.potlabicons.com/ 
 					<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
 					<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)" />
 					<path class="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/>
-					</svg> LANDING
-					
+					</svg> -->
+					<i class="far fa-compass"></i> GEOYMAPS					
 				</a>
-			</div>
-		
+			</div>		
 		
             <div class="flex-1">
                 <p class="uppercase text-gray-500 md:mb-6">Links</p>
@@ -453,7 +435,8 @@
                         <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
                     </li>
                 </ul>
-            </div>
+			</div>
+			
             <div class="flex-1">
                 <p class="uppercase text-gray-500 md:mb-6">Legal</p>
                 <ul class="list-reset mb-6">
@@ -496,8 +479,6 @@
         </div>
     </div>
 	
-	<a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
-
 </footer>
 
 
