@@ -1,7 +1,12 @@
 # landing-geoymaps
-Landing Page para eventos de geologia y mapas
 
-Una landing page para que las personas interesadas en los eventos de geologia y mapas puedan registrarse.
+Geologia y Mapas necesita un Landing Page para eventos.
+
+Este proyecto no es más que crear una página donde aparezca la información de un evento en especifico y el visitante pueda registrarse.
+
+Se espera que la información llegue via correo electronico al buzon del administrador de la pagina.
+
+El visitante sólo verá una pantalla de "Registro completado"
 
 ## Requisitos
 
@@ -14,3 +19,6 @@ Debe tener un formulario que recoje los siguientes datos:
 
 Debe enviar un correo electronico al admin con los datos recopilados
 
+## Normas
+
+Para saber las normas de colaboracion en este repositorio, por favor consulta [CONTRIBUTING.md](CONTRIBUTING.md)
