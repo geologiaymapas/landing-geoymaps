@@ -1,4 +1,7 @@
 # Contributing - Contribuyendo
+
+# Hacktoberfest 2021
+
 En este documento explicaré brevemente las normas para constribuir a este repositorio.
 
 Paso #1 : Revisa los issues
